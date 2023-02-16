@@ -1,5 +1,5 @@
-package paquete2;
 package test;
+
 
 public class Auto {
 	String modelo;

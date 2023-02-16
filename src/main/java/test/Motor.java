@@ -1,4 +1,3 @@
-package paquete2;
 package test;
 
 public class Motor {
@@ -14,7 +13,7 @@ public class Motor {
 		String[] validTypes = {"electrico", "gasolina"};
 		
 		for(String validType: validTypes) {
-			if (validType == tipo) {
+			if (validType.equals(tipo)) {
 				this.tipo = tipo;
 			}
 		}

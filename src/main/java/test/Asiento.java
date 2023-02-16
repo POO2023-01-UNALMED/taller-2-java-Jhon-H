@@ -1,5 +1,5 @@
-package paquete2;
 package test;
+
 
 public class Asiento {
 	String color;
@@ -11,7 +11,7 @@ public class Asiento {
 		String[] validColors = {"rojo", "verde", "amarillo", "negro", "blanco"};
 
 		for (String validColor: validColors) {
-			if (validColor == color ) {				
+			if (validColor.equals(color)) {				
 				this.color = color;
 			}
 		}		
